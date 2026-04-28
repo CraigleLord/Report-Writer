@@ -1,0 +1,22 @@
+{
+  "name": "PEMFC Monthly Intelligence Report",
+  "trigger_id": "trig_01VAUe9hL5dxVU6VWeaA2vqw",
+  "cron_expression": "0 15 28 * *",
+  "cron_human_readable": "28th of every month at 00:00 KST (15:00 UTC)",
+  "enabled": true,
+  "model": "claude-sonnet-4-6",
+  "environment_id": "env_01LM6pEyXQKuUKY8VbPzafZX",
+  "allowed_tools": [
+    "Bash",
+    "Read",
+    "Write",
+    "Edit",
+    "Glob",
+    "Grep",
+    "WebSearch",
+    "WebFetch"
+  ],
+  "reports_repo": "https://github.com/CraigleLord/PEMFC-Industry-Reports",
+  "manage_url": "https://claude.ai/code/routines/trig_01VAUe9hL5dxVU6VWeaA2vqw",
+  "note": "GitHub token is stored in the live routine configuration on Anthropic servers and is not included here."
+}
